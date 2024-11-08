@@ -8,7 +8,7 @@
 if you consider supporting me, please donate to my cashapp
 <CashApp><https://cash.app/$smithy920>
 
-If your looking for the perfect Framework for your next web browser build, then look no further because your search is over, i have been in your situation of searching for a electron browser base project that isent old or depricated, so i took the time to re create a browser-base project we all know and loved (see the [License](#license) section).
+a modern web browser built with react.js, electron, and node.js
 
 This Browser is a fork of the wexond Browser Basse project, which can be found [`here`](https://github.com/ironiumstudios/browser-base)
 
