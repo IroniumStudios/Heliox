@@ -8,9 +8,6 @@
 if you consider supporting me, please donate to my cashapp
 <CashApp><https://cash.app/$smithy920>
 
-> ## Notice
->The support for this project has ended, i am working on something better
-
 If your looking for the perfect Framework for your next web browser build, then look no further because your search is over, i have been in your situation of searching for a electron browser base project that isent old or depricated, so i took the time to re create a browser-base project we all know and loved (see the [License](#license) section).
 
 This Browser is a fork of the wexond Browser Basse project, which can be found [`here`](https://github.com/ironiumstudios/browser-base)
@@ -90,7 +87,7 @@ sudo apt install npm # this command will install npm for linux and mac os
 
   
 ```bash
-nvm install 22.5.1 # this installed the compatible version of node.js for this project
+nvm install 23.1.0 # this installed the compatible version of node.js for this project
 ```
 
 
@@ -100,7 +97,7 @@ after installing the correct version of node.js we want the nvm to use this vers
 
 
 ```bash
-nvm use 22.5.1 # sets the version you specified as defalt if your on windows but this command is also required to be ran on linux and mac os as well
+nvm use 23.1.0 # sets the version you specified as defalt if your on windows but this command is also required to be ran on linux and mac os as well
 ```
 
 
@@ -110,16 +107,16 @@ and if your using linux or mac os run this command alongsize the other one
 
 
 ```bash
-nvm alias default 22.5.1 # Sets the node version as the main defalt alias on linux and mac os
+nvm alias default 23.1.0 # Sets the node version as the main defalt alias on linux and mac os
 ```
 
 
 
-make sure you have the 31.2.1 version of electron installed, you can do so by running this command in your terminal or command prompt
+make sure you have the latest version of electron installed, you can do so by running this command in your terminal or command prompt
 
 
 ```bash
-npm install -g electron@31.2.1
+npm install -g electron@latest
 ```
 
 
