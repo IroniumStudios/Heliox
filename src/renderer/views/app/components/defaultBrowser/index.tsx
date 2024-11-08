@@ -1,4 +1,5 @@
-/* Copyright (c) 2025 Damon Smith */
+
+/* Copyright (c) 2021-2024 Damon Smith */
 
 import * as React from 'react';
 import { observer } from 'mobx-react-lite';
@@ -13,7 +14,6 @@ import {
 import * as os from 'os';
 import { ipcRenderer } from 'electron';
 import { ICON_CLOSE } from '~/renderer/constants/icons';
-import * as path from 'path';
 import store from '../../store';
 
 function getOS() {
@@ -44,9 +44,6 @@ const onCloseClick = () => {
   document.getElementById('Line').style.display = 'none';
 };
 
-// Construct the image path dynamically using Electron's path module
-const iconPath = path.join(__dirname, '..', '..', 'assets', 'imgs', 'app_icon.png');
-
 export const DefaultBrowser = observer(() => {
   // localStorage.setItem('hide-banner', "0")
 
@@ -66,7 +63,7 @@ export const DefaultBrowser = observer(() => {
           >
             <div
               style={{
-                background: `url(${iconPath})`,
+                background: `url(https://github.com/IroniumStudios/Heliox/blob/main/static/icons/icon.png)`,
                 width: '21px',
                 height: '21px',
                 backgroundSize: 'cover',
@@ -75,8 +72,8 @@ export const DefaultBrowser = observer(() => {
               }}
             ></div>
             <HiddenDiv>
-              Heliox is not your default browser, for maximum security and
-              privacy, we recommend you to use Heliox!
+              LunarWolf is not your default browser, for maximum security and
+              privacy, we recommend you to use LunarWolf!
             </HiddenDiv>
             <ButtonPredeterminado onClick={onButtonClick}>
               Set as default!
