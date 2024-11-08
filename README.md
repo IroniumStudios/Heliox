@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-  <h1>heliox Browser</h1>
+  <h1>Heliox Browser</h1>
 
 if you consider supporting me, please donate to my cashapp
 <CashApp><https://cash.app/$smithy920>
